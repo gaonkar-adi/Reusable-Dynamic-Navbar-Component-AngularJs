@@ -1,0 +1,134 @@
+[
+    {
+        "logoUrl": "./styles/images/logo.PNG",
+        "menuItems": [
+            {
+                "name": "Grid features",
+                "submenus": [
+                    {
+                        "submenuName": "Basic Grid",
+                        "url": "#/basicgrid"
+                    },
+                    {
+                        "submenuName": "Grid Filter",
+                        "url": "#/gridfilter"
+                    },
+                    {
+                        "submenuName": "Grid Pagination",
+                        "url": "#/gridpagination"
+                    },
+                    {
+                        "submenuName": "Grid Checkbox",
+                        "url": "#/gridcheckbox"
+                    },
+                    {
+                        "submenuName": "Grid Column Resizing",
+                        "url": "#/gridcolumnresizing"
+                    },
+                    {
+                        "submenuName": "Editable Grid",
+                        "url": "#/gridinlineedit"
+                    },
+                    {
+                        "submenuName": "Grid Column Freeze",
+                        "url": "#/gridfreeze"
+                    },
+                    {
+                        "submenuName": "Grid Cell validation",
+                        "url": "#/gridcellvalidate"
+                    },
+                    {
+                        "submenuName": "Grid Multi Column Header",
+                        "url": "#/gridmulticolumnheader"
+                    },
+                    {
+                        "submenuName": "Grid Column Grouping",
+                        "url": "#/gridcolgrouping"
+                    }
+                ]
+            },
+            {
+                "name": "Admin",
+                "submenus": [
+                    {
+                        "submenuName": "Cancellation Policy"
+                    },
+                    {
+                        "submenuName": "Ship Details"
+                    },
+                    {
+                        "submenuName": "Port Attributes"
+                    }
+                ]
+            },
+            {
+                "name": "Science Admin",
+                "submenus": [
+                    {
+                        "submenuName": "Binning Destination"
+                    },
+                    {
+                        "submenuName": "Science Fair Buckets"
+                    }
+                ]
+            },
+            {
+                "name": "Configuration",
+                "submenus": [
+                    {
+                        "submenuName": "Optimization Queue"
+                    },
+                    {
+                        "submenuName": "Promotion Insight"
+                    },
+                    {
+                        "submenuName": "Demand influences"
+                    }
+                ]
+            },
+            {
+                "name": "Sailing",
+                "submenus": [
+                    {
+                        "submenuName": "Sailing Dashboard"
+                    },
+                    {
+                        "submenuName": "Booking Curves"
+                    },
+                    {
+                        "submenuName": "Cancellations"
+                    },
+                    {
+                        "submenuName": "Price BOH"
+                    }
+                ]
+            },
+            {
+                "name": "Alerts",
+                "submenus": [
+                    {
+                        "submenuName": "Manage Alerts"
+                    },
+                    {
+                        "submenuName": "View Alerts"
+                    },
+                    {
+                        "submenuName": "Port Attributes"
+                    },
+                    {
+                        "submenuName": "Keystone",
+                        "url": "#/keystone"
+                    }
+                ]
+            },
+            {
+                "name": "Reporting",
+                "submenus": [
+                    {
+                        "submenuName": "Executive Report"
+                    }
+                ]
+            }
+        ]
+    }
+]
