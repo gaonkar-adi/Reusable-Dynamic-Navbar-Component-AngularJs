@@ -1,0 +1,23 @@
+<div>
+    <nav class="navbar navbar-expand navbar-dark fixed-top nav-background">
+
+        <a class="navbar-brand" href="#"><img src={{navdata.logoUrl}} width="105px" /></a>
+        <span class="app-header">Enhanced Optimization</span>
+
+        <div class="collapse navbar-collapse">
+            <div ng-repeat="item in navdata.menuItems" class="navbar-nav dropdown">
+                <a class="nav-link dropdown-toggle" style="font-family: 'Avenir-Medium';" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{item.name}}</a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a ng-repeat="subItem in item.submenus" class="dropdown-item" style="font-family: 'Avenir-Light'!important; font-size:small;"
+                        href="{{subItem.url}}">{{subItem.submenuName}}</a>
+                </div>
+            </div>
+    </nav>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('dropdown-toggle').dropdown()
+    });
+</script>

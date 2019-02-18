@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<div class="container" ng-controller="gridcheckboxCtrl">
+    <div class="panel panel-success">
+        <div class="panel-heading panel-head">
+            <span>Grid checkbox</span>
+            <span class="export down">
+                <i class="fas fa-file-export" title="Export data" data-toggle="dropdown"></i>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a ng-click="exportCsv(true)">Export all</a></li>
+                    <li><a ng-click="exportCsv(false)">Export selected</a></li>
+                </ul>
+            </span>
+        </div>
+        <div class="panel-body panel-border">
+            <div id="grid1Selection" ui-grid="gridOptions" ui-grid-selection ui-grid-exporter></div>
+        </div>
+    </div>
+</div>

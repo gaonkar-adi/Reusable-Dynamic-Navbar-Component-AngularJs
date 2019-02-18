@@ -1,0 +1,130 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/font-awesome/css/font-awesome.css";
+body {
+  padding-top: 5rem;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.grid {
+  width: auto;
+  height: auto;
+  background-color: #f1f1f1;
+}
+
+.dropdown {
+  cursor: pointer;
+}
+
+.ui-grid-cell-contents {
+  font-family: 'Avenir-Book'!important;
+  font-size: 14px;
+}
+
+.grid-demo {
+  width: 500px;
+  height: 150px;
+}
+
+.nav-background {
+  background-color: #1483bd;
+}
+
+.app-header {
+  width: 243px;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+}
+
+.panel-head {
+  background-color: #337ab7;
+  border-radius: 4px;
+  border-color: #337ab7;
+  margin-top: 60px;
+  height: 40px;
+}
+
+.panel-head span {
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+  line-height: 42px;
+}
+.ui-grid-cell button {
+  background-color: transparent;
+}
+.panel-border {
+  border: 1px solid #337ab7;
+}
+
+input[type=text] {
+  border-radius: .25rem !important;
+  height: 35px;
+  font-family: 'Avenir-Book'!important;
+}
+
+.form-control {
+  height: 35px;
+  font-family: 'Avenir-Book';
+}
+
+.bootbox-body {
+  font-family: Avenir-Book;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.ui-grid-scrollbar-placeholder {
+  background-color: #f1f1f1;
+}
+
+.fa-file-export, .dropdown-menu {
+  cursor: pointer;
+}
+.export a {
+  font-family: Avenir-Book;
+  margin-left: 10px;
+}
+.export li:hover {
+  background-color:azure;
+}
+
+.panel .export {
+  float: right;
+  margin-right: 15px;
+}
+
+.ui-grid-spilt-header-main{
+	 /* padding-top: 75px; */ /* added top padding dynamically by Js */
+  line-height: 30px;
+	text-align: center;
+}
+
+.ui-grid-split-merge-header{
+  border-left: 2px solid transparent;
+	position: absolute;
+	background: #f3f3f3;
+	text-align: center;
+	line-height: 30px;
+	z-index: 1;
+	top: 0px;
+	left:0px;
+}
+.ui-grid-header-table{
+  width:100%;
+  padding:0px;
+  border:none;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+.ui-grid-header-table tr td{
+  border-bottom:1px solid #ccc;
+  border-right:1px solid #ccc;
+}
+.ui-grid-header-table tr td:last-child{
+  border-right:none;
+}

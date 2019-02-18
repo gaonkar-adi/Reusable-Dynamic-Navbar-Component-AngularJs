@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>EO poc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./node_modules/angular-ui-grid/ui-grid.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles/kings-well.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./libs/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+
+</head>
+
+<body ng-app="mainApp" class="castle">
+    <div ng-include="'./app/components/homepage/home.html'"></div>
+    <div class="container"><ng-view></ng-view></div>
+    <script src="libs/angular.min.js"></script>
+    <script src="libs/angular-route.min.js"></script>
+    <script src="libs/angular-touch.min.js"></script>
+    <script src="libs/angular-animate.min.js"></script>
+    <script src="./node_modules/angular-ui-grid/ui-grid.js"></script>
+    <script src="./node_modules/angular-ui-grid/ui-grid.selection.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/routes.js"></script>
+    <script src="app/components/homepage/homeCtrl.js"></script>
+    <script src="app/services/complexdataservice.js"></script>
+    <script src="app/components/grid-demo/gridCtrl.js"></script>
+    <script src="app/components/grid-filter/gridFilterCtrl.js"></script>
+    <script src="app/components/pagination/gridPaginationCtrl.js"></script>
+    <script src="app/components/grid-checkbox-selection/gridCheckboxCtrl.js"></script>
+    <script src="app/components/grid-column-resizing/columnResizingCtrl.js"></script>
+    <script src="app/components/grid-multi-column-header/gridMultiColumnHeaderCtrl.js"></script>
+    <script src="app/components/grid-column-grouping/gridGroupingCtrl.js"></script>
+    <script src="app/directives/customdropdown-directive.js"></script>
+    <script src="node_modules/angular-ui-grid/ui-grid.exporter.min.js"></script>
+    <script src="app/filters/custom-filters.js"></script>
+    <script src="app/components/grid-editable/editableGridCtrl.js"></script>
+    <script src="app/components/grid-column-freeze/gridFreezeCtrl.js"></script>
+    <script src="node_modules/angular-ui-grid/ui-grid.validate.min.js"></script>
+    <script src="node_modules/angular-ui-grid/ui-grid.cellnav.min.js"></script>
+    <script src="node_modules/angular-ui-grid/ui-grid.edit.min.js"></script>
+    <script src="node_modules/angular-ui-grid/ui-grid.core.min.js"></script>
+    <script src="app/components/edit-validation/editValidationCtrl.js"></script>
+    <script src="./component-library/navbar/navbar-directive.js"></script>
+    <script src="./component-library/navbar/navbar-service.js"></script>
+    <script src="./component-library/services/http-service.js"></script>
+</body>
+
+</html>
